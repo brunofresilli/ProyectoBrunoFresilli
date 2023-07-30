@@ -77,4 +77,10 @@ main div h2 {
   font-family: "Roboto", sans-serif;
 }
 
+.color {
+  background-color: rgba(217, 197, 180, 0.914);
+  padding: 0.625rem;
+  margin: 0.625rem;
+}
+
 /*# sourceMappingURL=style.css.map */
