@@ -1,126 +1,80 @@
+header {
+  background-color: rgba(217, 197, 180, 0.914);
+}
+header h1 {
+  font-size: 5.625rem;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+}
+header nav {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font-size: 1.875rem;
+}
+header nav ul {
+  list-style: none;
+  font-size: 1.5625rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@800&family=Roboto:wght@300&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box; 
+main div {
+  font-family: "Roboto", sans-serif;
 }
-/*fuentes 
-font-family: 'Inconsolata', monospace;
-font-family: 'Roboto', sans-serif; */
+main div h2 {
+  font-size: 2em;
+}
 
+.cards {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+}
+.cards .cardstext {
+  padding: 0.3125rem;
+  font-family: "Roboto", sans-serif;
+}
 
-
-/*header*/
-h1{
-    font-size: 5.625rem;
-        
-    font-family: 'Inconsolata', monospace;
-    text-align: center;
-}
-.navBar{
-    text-decoration: none;
-    color: black;
-    list-style: none;
-    font-size:1.875rem ;
-    
-}
-.ulNav{
-    list-style: none;
-    font-size: 1.5625rem ;
-}
-.ulNav li a{
-
-    text-decoration: none;
-    color: black;
-    font-family: 'Roboto', sans-serif;
-
-}
-.header{
-    background-color: rgba(217, 197, 180, 0.914);
-
-}
-/* main */
-.section1{
-    font-family: 'Roboto', sans-serif;
-}
-.section1 h2{
-    font-size: 2em;
-}
-.cards{
-    width: 15.625rem;
-    height: 20.3125rem;
-    font-family: 'Roboto', sans-serif;
-}
-.cards h2 {
-    padding: .625rem;
-}
-.cards h3{
-    padding: .625rem;
-}
-.cards p{
-    padding: .625rem
-}
-.cardsIndividuales{
-    width: 35.25rem;
-    height: 35rem;
-    padding: 1.25rem;
-    font-family: 'Roboto', sans-serif;
-}
-.cardsIndividuales h3 {
-    padding: .625rem;
-}
-.cardsIndividuales p {
-    padding: 1.25rem;
-}
-.mainText{
-    background-color: rgb(217, 197, 180);
-    font-family: 'Roboto', sans-serif;
-}
-.cardsText{
-    padding: .3125rem;
-    font-family: 'Roboto', sans-serif;
-}
-.tamañoimg{
-    width: 75%;
-    height: auto;
-    padding: .625rem;
-}
 .mainNavbar {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #f1f1f1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
 }
 .mainNavbar li {
-        display: inline;
+  display: inline;
 }
 .mainNavbar li a {
-        display: block;
-        padding: .3125rem;
-        text-decoration: none;
-        color: #333;
-        font-family: 'Roboto', sans-serif;
+  display: block;
+  padding: 0.3125rem;
+  text-decoration: none;
+  color: #333;
+  font-family: "Roboto", sans-serif;
 }
 .mainNavbar li a:hover {
-background-color: rgb(217, 197, 180);
+  background-color: rgba(217, 197, 180, 0.914);
+}
 
+.footers {
+  background-color: rgba(217, 197, 180, 0.914);
+  font-family: "Inconsolata", monospace;
+  margin-bottom: auto;
 }
-/* footer */
-.footer{
-    background-color: rgba(217, 197, 180, 0.914);
-    font-family: 'Inconsolata', monospace;
+.footers h2 {
+  font-size: 2.5rem;
 }
-.footer h2{
-    font-size: 2.5rem;
+.footers h2 ul li a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  font: size 0.9375rem;
+  font-family: "Roboto", sans-serif;
 }
-.ulFooterNav li a{
-    text-decoration: none;
-    color: black;
-    list-style: none;
-    font: size .9375rem ;
-    font-family: 'Roboto', sans-serif;
+.footers h2 ul li a p {
+  font-family: "Roboto", sans-serif;
 }
-.ulFooterNav p{
-    font-family: 'Roboto', sans-serif;
-}
+
+/*# sourceMappingURL=style.css.map */
