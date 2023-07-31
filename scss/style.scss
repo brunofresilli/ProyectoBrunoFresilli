@@ -1,4 +1,5 @@
-$color-fondo: rgba(217, 197, 180, 0.914);
+@import 'parcial';
+
 header {
     background-color: $color-fondo;
     h1{
@@ -30,7 +31,7 @@ main{
     } }
 }
 .cards{
-    font-family: 'Roboto', sans-serif;
+    @include bordeRedondeado;
     margin: auto;
     .cardstext{
                 padding: .3125rem;
@@ -65,11 +66,10 @@ main{
             ul{
                 li{
                     a{
+                    @extend .cardTitulo;
                     text-decoration: none;
                     color: black;
                     list-style: none;
-                    font: size .9375rem ;
-                    font-family: 'Roboto', sans-serif; 
                         p{
                         font-family: 'Roboto', sans-serif; 
                         }
@@ -78,8 +78,16 @@ main{
         }
         }
 }
-.color {
-    background-color: $color-fondo;
+.qyaCard{
+    @extend .color;
     padding: .625rem;
     margin: .625rem;
+}
+.color {
+    background-color: $color-fondo;
+}
+.cardTitulo {
+    font-weight: bold;
+    font-size: 1.5625rem;
+    font-family:'Roboto', sans-serif;
 }

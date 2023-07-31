@@ -30,7 +30,7 @@ main div h2 {
 }
 
 .cards {
-  font-family: "Roboto", sans-serif;
+  border-radius: 1.25rem;
   margin: auto;
 }
 .cards .cardstext {
@@ -70,17 +70,24 @@ main div h2 {
   text-decoration: none;
   color: black;
   list-style: none;
-  font: size 0.9375rem;
-  font-family: "Roboto", sans-serif;
 }
 .footers h2 ul li a p {
   font-family: "Roboto", sans-serif;
 }
 
-.color {
-  background-color: rgba(217, 197, 180, 0.914);
+.qyaCard {
   padding: 0.625rem;
   margin: 0.625rem;
+}
+
+.color, .qyaCard {
+  background-color: rgba(217, 197, 180, 0.914);
+}
+
+.cardTitulo, .footers h2 ul li a {
+  font-weight: bold;
+  font-size: 1.5625rem;
+  font-family: "Roboto", sans-serif;
 }
 
 /*# sourceMappingURL=style.css.map */
