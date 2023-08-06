@@ -1,0 +1,22 @@
+footer {
+    background-color: $color-fondo;
+    font-family: $tipo-titulo;
+    margin-bottom: auto;
+    h2{
+        font-size: 2.5rem;
+        }
+        ul{
+            li{
+                a{
+                @extend .cardTitulo;
+                text-decoration: none;
+                color: black;
+                list-style: none;
+                    p{
+                    font-family: $tipo-texto;
+                    }
+                }
+                }
+    }
+    
+}

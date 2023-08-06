@@ -1,43 +1,15 @@
 @import 'parcial';
 
-header {
-    background-color: $color-fondo;
-    h1{
-        font-size: 5.625rem;
-        font-family: 'Inconsolata', monospace;
-        text-align: center;
-    }
-    nav{
-        text-decoration: none;
-        color: black;
-        list-style: none;
-        font-size:1.875rem ;
-        ul{
-            list-style: none;
-            font-size: 1.5625rem ; 
-        li{
-            a{ 
-            text-decoration: none;
-            color: black;
-            font-family: 'Roboto', sans-serif; 
-            }
-        }}}
-}
+
+
 main{
     div{
-        font-family: 'Roboto', sans-serif;
+        font-family: $tipo-texto;
     h2{
         font-size: 2em;
     } }
 }
-.cards{
-    @include bordeRedondeado;
-    margin: auto;
-    .cardstext{
-                padding: .3125rem;
-                font-family: 'Roboto', sans-serif;
-    }
-}
+
 .mainNavbar {
         list-style-type: none;
         margin: 0;
@@ -50,44 +22,25 @@ main{
             padding: .3125rem;
             text-decoration: none;
             color: #333;
-            font-family: 'Roboto', sans-serif; 
+            font-family: $tipo-texto; 
             &:hover{
             background-color: $color-fondo;
             }    
         }
         }
 }
-.footers {
-        background-color: $color-fondo;
-        font-family: 'Inconsolata', monospace;
-        margin-bottom: auto;
-        h2{
-            font-size: 2.5rem;
-            ul{
-                li{
-                    a{
-                    @extend .cardTitulo;
-                    text-decoration: none;
-                    color: black;
-                    list-style: none;
-                        p{
-                        font-family: 'Roboto', sans-serif; 
-                        }
-                    }
-                    }
-        }
-        }
-}
+
 .qyaCard{
     @extend .color;
-    padding: .625rem;
-    margin: .625rem;
+    
 }
 .color {
     background-color: $color-fondo;
+    height: 100%;
+    width: 100%;
 }
 .cardTitulo {
     font-weight: bold;
     font-size: 1.5625rem;
-    font-family:'Roboto', sans-serif;
+    font-family:$tipo-texto;
 }

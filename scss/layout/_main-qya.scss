@@ -1,0 +1,24 @@
+main{
+    h2{}
+        .cards{
+        @include bordeRedondeado;
+        padding: .625rem;
+        margin: .625rem;
+    .qyaCard{
+        background-color: $color-fondo;
+        height: 100%;
+        width: 100%;
+        div{}
+        div{
+            div{
+                .cardTitulo{
+                    font-weight: bold;
+                    font-size: 1.5625rem;
+                    font-family:$tipo-texto
+                }
+            }
+        }
+
+    }
+    }
+}

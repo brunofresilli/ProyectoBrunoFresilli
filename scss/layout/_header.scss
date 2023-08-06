@@ -1,0 +1,23 @@
+header {
+    background-color: $color-fondo;
+    h1{
+        font-size: 5.625rem;
+        font-family: $tipo-titulo;
+        text-align: center;
+    }
+    nav{
+        text-decoration: none;
+        color: black;
+        list-style: none;
+        font-size:1.875rem ;
+        ul{
+            list-style: none;
+            font-size: 1.5625rem ; 
+        li{
+            a{ 
+            text-decoration: none;
+            color: black;
+            font-family: $tipo-texto; 
+            }
+        }}}
+}

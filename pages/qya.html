@@ -12,41 +12,48 @@
 <body>
     <header class="header container-fluid">
         <h1 class="h1">MaderArte</h1>
-        <nav class="navbar row" id=#top>
-            <div class="d-sm-flex justify-content-center col ulNav">
-                <a class="navbar-brand" href="../index.html">Inicio</a>
-                <a class="navbar-brand" href="./tienda.html">Tienda</a>
-                <a class="navbar-brand" href="./qya.html">Q&A</a>
-                <a class="navbar-brand" href="./nosotros.html">Nosotros</a>
-            </div>
-        </nav>
-            <div>
-                <div class="row">
-                    <div class="col-md-12 d-flex justify-content-center justify-content-sm-end justify-content-md-end pb-2">
-                        <input type="search">
-                        <button class="mx-1 btn btn-dark" type="button">Buscar</button>
-                        <a class="mt-1" href="./carrito.html"><img  src="../assets/img/carrito.png" alt="carrito"></a>
-                    </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="./tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="./qya.html">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Buscar</button>
+                    <a class="mt-1" href="./carrito.html"><img src="../assets/img/carrito.png" alt="carrito"></a>
+                    </form>
                 </div>
             </div>
+        </nav>
     </header>
-
     <main class="container mainText">
         <h2 class="text-center">Preguntas frecuentes</h2>
-        <div class="card">
-    
-        </div>
         <div class="container card cards mb-3">
             <div class="row qyaCard">
                 <div class="col-4 col-sm-4 col-md-2 col-lg-2">
                     <img src="../assets/img/truck.png" class="img-fluid rounded-start" alt="camion">
                 </div>
-                    <div class="col-12 col-sm-8 col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title cardTitulo">Realizan envios?</h5>
-                            <p class="card-text">Si los envíos se realizan por la empresa de encomiendas DAC, luego de ser ingresado el pago.</p>
-                        </div>
+                <div class="col-12 col-sm-8 col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title cardTitulo">Realizan envios?</h5>
+                        <p class="card-text">Si los envíos se realizan por la empresa de encomiendas DAC, luego de ser ingresado el pago.</p>
                     </div>
+                </div>
             </div>
         </div>
         <div class="container card cards mb-3">
@@ -54,12 +61,12 @@
                 <div class="col-4 col-sm-4 col-md-2 col-lg-2">
                     <img src="../assets/img/credit-card.png" class="img-fluid rounded-start" alt="tarjeta de credito">
                 </div>
-                    <div class="col-12 col-sm-8 col-md-10 col-lg-10">
-                        <div class="card-body">
-                            <h5 class="card-title cardTitulo">Metodos de pagos</h5>
-                            <p class="card-text">Trabajamos con efectivo,transferencias, depositos y pagos con todas las tarjetas a traves de mercadopago</p>
-                        </div>
+                <div class="col-12 col-sm-8 col-md-10 col-lg-10">
+                    <div class="card-body">
+                        <h5 class="card-title cardTitulo">Metodos de pagos</h5>
+                        <p class="card-text">Trabajamos con efectivo,transferencias, depositos y pagos con todas las tarjetas a traves de mercadopago</p>
                     </div>
+                </div>
             </div>
         </div>
         <div class="container card cards mb-3">
@@ -67,17 +74,15 @@
                 <div class="col-4 col-sm-4 col-md-2 col-lg-2">
                     <img src="../assets/img/store.png" class="img-fluid rounded-start" alt="tienda">
                 </div>
-                    <div class="col-12 col-sm-8 col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title cardTitulo">Cuentan con pickup ?</h5>
-                            <p class="card-text">Si, retira tus compras en nuestro local ubicado en calle uruguay 1315.</p>
-                        </div>
+                <div class="col-12 col-sm-8 col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title cardTitulo">Cuentan con pickup ?</h5>
+                        <p class="card-text">Si, retira tus compras en nuestro local ubicado en calle uruguay 1315.</p>
                     </div>
+                </div>
             </div>
         </div>
-            
-      
-      </main>
+        
         <a href="#top"><img src="../assets/img/top.png"></a>
     </main>
 
@@ -86,16 +91,16 @@
             <h2 class="text-center">MaderArte</h2>
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">inicio</a></li>
-                <li class="nav-item"><a href="./nosotros.html" class="nav-link px-2 text-body-secondary">Nosotros</a></li>
+                <li class="nav-item"><a href="./contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
                 <li class="nav-item"><a href="./tienda.html" class="nav-link px-2 text-body-secondary">Tienda</a></li>
                 <li class="nav-item"><a href="./qya.html" class="nav-link px-2 text-body-secondary">FAQs</a></li>
             </ul>
             
             <div class="container-fluid">
                 <div class="d-flex justify-content-center py-4 my-4 ">
-                    <a href="https://www.facebook.com/profile.php?id=100068821220075"target="blank"><img src="../assets/img/facebook.png" class="bi" width="24" height="24"></a>
-                    <a class="mx-3" href="https://www.instagram.com/maderartemaderarte/"target="blank"><img src="../assets/img/instagram.png" class="bi" width="24" height="24"></a>
-                    <a><img src="../assets/img/WhatsApp.png" class="bi" width="24" height="24"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100068821220075"target="blank"><img src="../assets/img/facebook.png"></a>
+                    <a class="mx-3" href="https://www.instagram.com/maderartemaderarte/"target="blank"><img src="../assets/img/instagram.png"></a>
+                    <a><img src="../assets/img/WhatsApp.png" ></a>
                     <p>+59894523321</p>
                 </div>
             </div>

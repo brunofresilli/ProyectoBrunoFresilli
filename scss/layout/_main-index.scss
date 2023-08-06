@@ -1,0 +1,18 @@
+.cards{
+    @include bordeRedondeado;
+    padding: .625rem;
+    margin: .625rem;
+    div{
+        div{
+            .cardTitulo{
+                font-weight: bold;
+                    font-size: 1.5625rem;
+                    font-family:$tipo-texto
+            }
+    .cardsText{
+                padding: .3125rem;
+                font-family: $tipo-texto;
+    }
+}
+}
+}

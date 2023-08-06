@@ -82,6 +82,8 @@ main div h2 {
 
 .color, .qyaCard {
   background-color: rgba(217, 197, 180, 0.914);
+  height: 100%;
+  width: 100%;
 }
 
 .cardTitulo, .footers h2 ul li a {

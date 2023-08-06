@@ -9,27 +9,38 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-<body class="p-3">
+<body>
     <header class="header container-fluid">
         <h1 class="h1">MaderArte</h1>
-        <nav class="navbar row" id=#top>
-            <div class="d-sm-flex justify-content-center col ulNav">
-                <a class="navbar-brand" href="./index.html">Inicio</a>
-                <a class="navbar-brand" href="./pages/tienda.html">Tienda</a>
-                <a class="navbar-brand" href="./pages/qya.html">Q&A</a>
-                <a class="navbar-brand" href="./pages/nosotros.html">Nosotros</a>
-            </div>
-        </nav>
-            <div>
-                <div class="row">
-                    <div class="col-md-12 d-flex justify-content-center justify-content-sm-end justify-content-md-end pb-2">
-                        <input type="search">
-                        <button class="mx-1 btn btn-dark" type="button">Buscar</button>
-                        <a class="mt-1" href="./carrito.html"><img  src="./assets/img/carrito.png" alt="carrito"></a>
-                    </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="./pages/tienda.html">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="./pages/qya.html">Preguntas frecuentes</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Buscar</button>
+                    <a class="mt-1" href="./carrito.html"><img src="../assets/img/carrito.png" alt="carrito"></a>
+                    </form>
                 </div>
             </div>
-    </header>  
+        </nav>
+    </header>
 
     <main>
         <div class="container">
@@ -40,7 +51,7 @@
                         <a href="./pages/tiendaIndividual.html"><img src="./assets/img/cuadroCasamiento.png" class="img-fluid card-img-top" alt="cuadro casamiento"></a>
                         <div class="card-body">
                             <h5 class="card-title cardTitulo">Cuadro para casamientos</h5>
-                        <p class="cardstext">Cuadro de Casamiento Encantador: Celebra el amor con este hermoso regalo. Captura el momento especial del enlace y preserva recuerdos preciados para toda la vida. Perfecto para parejas a punto de unir sus vidas en matrimonio.</p>
+                        <p class="cardsText">Cuadro de Casamiento Encantador: Celebra el amor con este hermoso regalo. Captura el momento especial del enlace y preserva recuerdos preciados para toda la vida. Perfecto para parejas a punto de unir sus vidas en matrimonio.</p>
                         </div>
                     </div>
                 </div>
@@ -122,16 +133,16 @@
             <h2 class="text-center">MaderArte</h2>
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item"><a href="../index.html" class="nav-link px-2 text-body-secondary">inicio</a></li>
-                <li class="nav-item"><a href="./nosotros.html" class="nav-link px-2 text-body-secondary">Nosotros</a></li>
+                <li class="nav-item"><a href="./pages/contacto.html" class="nav-link px-2 text-body-secondary">Contacto</a></li>
                 <li class="nav-item"><a href="./tienda.html" class="nav-link px-2 text-body-secondary">Tienda</a></li>
                 <li class="nav-item"><a href="./qya.html" class="nav-link px-2 text-body-secondary">FAQs</a></li>
             </ul>
             
-            <div class="container-fluid">
-                <div class="d-flex justify-content-center py-4 my-4 ">
-                    <a href="https://www.facebook.com/profile.php?id=100068821220075"target="blank"><img src="./assets/img/facebook.png" class="bi" width="24" height="24"></a>
-                    <a class="mx-3" href="https://www.instagram.com/maderartemaderarte/"target="blank"><img src="./assets/img/instagram.png" class="bi" width="24" height="24"></a>
-                    <a><img src="./assets/img/WhatsApp.png" class="bi" width="24" height="24"></a>
+            <div class="container-fluid ">
+                <div class="d-flex justify-content-center py-4 my-4 icon ">
+                    <a href="https://www.facebook.com/profile.php?id=100068821220075"target="blank"><img src="./assets/img/facebook.png" class="" ></a>
+                    <a class="mx-3" href="https://www.instagram.com/maderartemaderarte/"target="blank"><img src="./assets/img/instagram.png" ></a>
+                    <a><img src="./assets/img/WhatsApp.png"></a>
                     <p>+59894523321</p>
                 </div>
             </div>
