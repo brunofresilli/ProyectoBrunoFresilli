@@ -46,8 +46,7 @@ div {
                         padding-left: 0;
                             li {
                                 strong {
-                                        font-size: $tamano-texto;
-                                        font-family: $tipo-texto;
+                                        @extend .texto
                                         }
                                 }
                             }

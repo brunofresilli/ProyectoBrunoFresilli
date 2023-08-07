@@ -1,14 +1,14 @@
-@import '_reset';
-@import '_variables';
-@import '_funciones';
-@import '_mixins';
-@import '_cards';
-@import '_header';
-@import '_main-index';
-@import '_main-qya';
-@import '_main-tienda-individual';
-@import '_main-tienda';
-@import '_main-contacto';
+@import "./utilities/variables";
+@import "./utilities/mixins";
+@import "./utilities/funciones";
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/main-index";
+@import "./layout/main-qya";
+@import "./layout/main-tienda-individual";
+@import "./layout/main-tienda";
+@import "./layout/main-contacto";
+@import "./layout/footer";
 
 
 
