@@ -1,46 +1,19 @@
-@import 'parcial';
+@import '_reset';
+@import '_variables';
+@import '_funciones';
+@import '_mixins';
+@import '_cards';
+@import '_header';
+@import '_main-index';
+@import '_main-qya';
+@import '_main-tienda-individual';
+@import '_main-tienda';
+@import '_main-contacto';
 
 
 
-main{
-    div{
-        font-family: $tipo-texto;
-    h2{
-        font-size: 2em;
-    } }
-}
 
-.mainNavbar {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        background-color: #f1f1f1;
-        li{
-            display: inline;
-            a{
-            display: block;
-            padding: .3125rem;
-            text-decoration: none;
-            color: #333;
-            font-family: $tipo-texto; 
-            &:hover{
-            background-color: $color-fondo;
-            }    
-        }
-        }
-}
 
-.qyaCard{
-    @extend .color;
-    
-}
-.color {
-    background-color: $color-fondo;
-    height: 100%;
-    width: 100%;
-}
-.cardTitulo {
-    font-weight: bold;
-    font-size: 1.5625rem;
-    font-family:$tipo-texto;
-}
+
+
+
