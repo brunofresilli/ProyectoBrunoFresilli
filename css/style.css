@@ -30,7 +30,7 @@ header nav ul .navbar-nav li a {
 }
 
 .cards {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 0.625rem;
   margin: 0.625rem;
@@ -46,7 +46,7 @@ header nav ul .navbar-nav li a {
 }
 
 main .cards {
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   padding: 0.625rem;
   margin: 0.625rem;
