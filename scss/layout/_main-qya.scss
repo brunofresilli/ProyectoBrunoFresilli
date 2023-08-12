@@ -1,14 +1,12 @@
 main{
-    h2{}
         .cards{
-        @include sombraCard(rgba(0, 0, 0, 0.1), 10px);
+        @include sombraCard (rgba(0, 0, 0, 0.1), 10px);
         padding: .625rem;
         margin: .625rem;
     .qyaCard{
         background-color: $color-fondo;
         height: 100%;
         width: 100%;
-        div{}
         div{
             div{
                 .cardTitulo{

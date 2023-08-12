@@ -1,19 +1,23 @@
-.mainNavbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
-    li{
-        display: inline;
-        a{
-        display: block;
-        padding: .3125rem;
-        text-decoration: none;
+
+.checkbox {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
+    height: 9.375rem; 
+    }
+.check {
+    
+    margin-left: 3rem;
+    pointer-events: none;
+    &:checked {
+    accent-color: $color-fondo;
+    }   
+        } 
+    label {
+        font-weight: $tamano-texto;
         color: #333;
-        font-family: $tipo-texto; 
-        &:hover{
-        background-color: $color-fondo;
-        }    
+        cursor: pointer;
     }
-    }
-}
+

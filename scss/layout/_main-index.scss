@@ -1,5 +1,5 @@
 .cards{
-    @include bordeRedondeado;
+    @include sombraCard (rgba(0, 0, 0, 0.1), 10px);
     padding: .625rem;
     margin: .625rem;
     div{

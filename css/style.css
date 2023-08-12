@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 header {
   background-color: rgba(217, 197, 180, 0.914);
 }
@@ -12,84 +18,170 @@ header nav {
   list-style: none;
   font-size: 1.875rem;
 }
-header nav ul {
+header nav ul .navbar-nav {
+  margin-bottom: 0.5rem;
   list-style: none;
   font-size: 1.5625rem;
 }
-header nav ul li a {
+header nav ul .navbar-nav li a {
   text-decoration: none;
   color: black;
   font-family: "Roboto", sans-serif;
-}
-
-main div {
-  font-family: "Roboto", sans-serif;
-}
-main div h2 {
-  font-size: 2em;
 }
 
 .cards {
-  border-radius: 1.25rem;
-  margin: auto;
-}
-.cards .cardstext {
-  padding: 0.3125rem;
-  font-family: "Roboto", sans-serif;
-}
-
-.mainNavbar {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #f1f1f1;
-}
-.mainNavbar li {
-  display: inline;
-}
-.mainNavbar li a {
-  display: block;
-  padding: 0.3125rem;
-  text-decoration: none;
-  color: #333;
-  font-family: "Roboto", sans-serif;
-}
-.mainNavbar li a:hover {
-  background-color: rgba(217, 197, 180, 0.914);
-}
-
-.footers {
-  background-color: rgba(217, 197, 180, 0.914);
-  font-family: "Inconsolata", monospace;
-  margin-bottom: auto;
-}
-.footers h2 {
-  font-size: 2.5rem;
-}
-.footers h2 ul li a {
-  text-decoration: none;
-  color: black;
-  list-style: none;
-}
-.footers h2 ul li a p {
-  font-family: "Roboto", sans-serif;
-}
-
-.qyaCard {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
   padding: 0.625rem;
   margin: 0.625rem;
 }
+.cards div div .cardTitulo, .cards div div footer .espacio ul li a, footer .espacio ul li .cards div div a {
+  font-weight: bold;
+  font-size: 1.5625rem;
+  font-family: "Roboto", sans-serif;
+}
+.cards div div .cardsText {
+  padding: 0.3125rem;
+  font-family: "Roboto", sans-serif;
+}
 
-.color, .qyaCard {
+main .cards {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 0.625rem;
+  margin: 0.625rem;
+}
+main .cards .qyaCard {
+  background-color: rgba(217, 197, 180, 0.914);
+  height: 100%;
+  width: 100%;
+}
+main .cards .qyaCard div div .cardTitulo, main .cards .qyaCard div div footer .espacio ul li a, footer .espacio ul li main .cards .qyaCard div div a {
+  font-weight: bold;
+  font-size: 1.5625rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.color {
   background-color: rgba(217, 197, 180, 0.914);
   height: 100%;
   width: 100%;
 }
 
-.cardTitulo, .footers h2 ul li a {
-  font-weight: bold;
-  font-size: 1.5625rem;
+.section {
+  padding: 1rem;
+}
+.section .cards {
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  padding: 0.625rem;
+  margin: 0.625rem;
+}
+
+.checkbox {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-left: 3.125rem;
+  margin-right: 3.125rem;
+  height: 9.375rem;
+}
+
+.check {
+  margin-left: 3rem;
+  pointer-events: none;
+}
+.check:checked {
+  accent-color: rgba(217, 197, 180, 0.914);
+}
+
+label {
+  font-weight: 1.25rem;
+  color: #333;
+  cursor: pointer;
+}
+
+div .textoTitulo {
+  font-size: 3.75rem;
+  font-family: "Inconsolata", monospace;
+}
+div p {
+  font-size: 1.25rem;
   font-family: "Roboto", sans-serif;
+}
+div p {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+}
+
+div div div.margen {
+  margin-bottom: 2rem;
+}
+div div div.margen .texto, div.margen div div.margen ul li strong, div.margen ul li div div.margen strong {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+}
+div div div.margen .texto, div.margen div div.margen ul li strong, div.margen ul li div div.margen strong {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+}
+div div div.margen .texto, div.margen div div.margen ul li strong, div.margen ul li div div.margen strong {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+}
+div div div.margen .texto, div.margen div div.margen ul li strong, div.margen ul li div div.margen strong {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+}
+
+div .texto, div ul li strong {
+  font-size: 1.25rem;
+  font-family: "Roboto", sans-serif;
+}
+div ul {
+  list-style: none;
+  padding-left: 0;
+}
+.mapa {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.mapa iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.flecha {
+  padding: 1rem;
+}
+
+footer {
+  background-color: rgba(217, 197, 180, 0.914);
+  font-family: "Inconsolata", monospace;
+  margin-bottom: auto;
+}
+footer .espacio {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+footer .espacio h2 {
+  font-size: 2.5rem;
+}
+footer .espacio ul li a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+footer .espacio div div .separador {
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */

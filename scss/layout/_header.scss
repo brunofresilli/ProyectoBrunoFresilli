@@ -10,7 +10,8 @@ header {
         color: black;
         list-style: none;
         font-size:1.875rem ;
-        ul{
+        ul .navbar-nav{
+            margin-bottom: 0.5rem;
             list-style: none;
             font-size: 1.5625rem ; 
         li{
