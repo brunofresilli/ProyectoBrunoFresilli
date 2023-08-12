@@ -13,7 +13,7 @@ Turores: Joaquín De La Parra
          Yeison Rodriguez
 
 
-##Caracteristicas
+# Caracteristicas
 
 
 -Diseño responsive para una experiencia óptima en todos los dispositivos.
@@ -24,36 +24,26 @@ Turores: Joaquín De La Parra
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![Captura de Pantalla 1](screenshots/screen1.png)
+![Captura de Pantalla 2](screenshots/screen2.png)
 
-
-## Run Locally
+## Como Utilizar
 Cómo Utilizar
 Sigue estos pasos:
 
 Clonar el Repositorio: Abre tu terminal y ejecuta el siguiente comando para clonar este repositorio en tu máquina local:
-
-
 git clone https://github.com/brunofresilli/ProyectoBrunoFresilli
-
 Navegar al Directorio: Cambia al directorio del proyecto que acabas de clonar:
-
-
 cd ProyectoBrunoFresilli
 Abrir la Página Principal: Abre el archivo index.html en tu navegador web para acceder a la página de inicio del sitio:
-
 Puedes hacer doble clic en el archivo index.html en tu explorador de archivos.
-
 O puedes ejecutar este comando en tu terminal para abrirlo en el navegador predeterminado:
-
-
-
 open index.html
 ¡Ahora deberías ver la página de inicio del sitio web en tu navegador!
 
 Explorar el Sitio: Navega por las diferentes secciones del sitio web, como la página de inicio, el catálogo de productos y las páginas de productos individuales.
 
-## Tech Stack
+## Tecnologias
 
 HTML5, CSS3
 
