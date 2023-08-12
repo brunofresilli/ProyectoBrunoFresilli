@@ -24,8 +24,8 @@ Turores: Joaquín De La Parra
 
 ## Screenshots
 
-(screenshots/screen1.png)
-(screenshots/screen2.png)
+![Captura de Pantalla 1](screenshots/screen1.png)
+![Captura de Pantalla 2](screenshots/screen2.png)
 
 ## Run Locally
 Cómo Utilizar
