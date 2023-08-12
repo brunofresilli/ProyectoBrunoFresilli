@@ -24,30 +24,20 @@ Turores: Joaquín De La Parra
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+(screenshots/screen1.png)
+(screenshots/screen2.png)
 
 ## Run Locally
 Cómo Utilizar
 Sigue estos pasos:
 
 Clonar el Repositorio: Abre tu terminal y ejecuta el siguiente comando para clonar este repositorio en tu máquina local:
-
-
 git clone https://github.com/brunofresilli/ProyectoBrunoFresilli
-
 Navegar al Directorio: Cambia al directorio del proyecto que acabas de clonar:
-
-
 cd ProyectoBrunoFresilli
 Abrir la Página Principal: Abre el archivo index.html en tu navegador web para acceder a la página de inicio del sitio:
-
 Puedes hacer doble clic en el archivo index.html en tu explorador de archivos.
-
 O puedes ejecutar este comando en tu terminal para abrirlo en el navegador predeterminado:
-
-
-
 open index.html
 ¡Ahora deberías ver la página de inicio del sitio web en tu navegador!
 
