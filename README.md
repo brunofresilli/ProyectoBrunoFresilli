@@ -13,7 +13,7 @@ Turores: Joaquín De La Parra
          Yeison Rodriguez
 
 
-##Caracteristicas
+# Caracteristicas
 
 
 -Diseño responsive para una experiencia óptima en todos los dispositivos.
@@ -27,7 +27,7 @@ Turores: Joaquín De La Parra
 ![Captura de Pantalla 1](screenshots/screen1.png)
 ![Captura de Pantalla 2](screenshots/screen2.png)
 
-## Run Locally
+## Como Utilizar
 Cómo Utilizar
 Sigue estos pasos:
 
@@ -43,7 +43,7 @@ open index.html
 
 Explorar el Sitio: Navega por las diferentes secciones del sitio web, como la página de inicio, el catálogo de productos y las páginas de productos individuales.
 
-## Tech Stack
+## Tecnologias
 
 HTML5, CSS3
 
